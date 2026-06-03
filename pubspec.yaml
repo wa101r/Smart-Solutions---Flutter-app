@@ -1,0 +1,26 @@
+name: smart_solutions
+description: "Smart Solutions app — product catalog, IoT device dashboard, and service requests. Built with Flutter."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2          # State management (ChangeNotifier)
+  http: ^1.2.1             # REST API calls
+  fl_chart: ^0.68.0        # Charts on the IoT dashboard
+  intl: ^0.19.0            # Number/date formatting
+  shared_preferences: ^2.2.3 # Persist theme & auth token locally
+  google_fonts: ^6.2.1     # Plus Jakarta Sans typography
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
